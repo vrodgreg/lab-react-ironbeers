@@ -73,3 +73,46 @@ header {
   width: 200px;
 
 }
+
+.beerDetails {
+  width: 70%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.beerDetails img {
+  width: 75px;
+}
+
+.beerDetails section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.newBeer form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: auto;
+  padding-top: 20px;
+  width: 400px;
+}
+
+.newBeer input {
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 20px;
+  width: 300px;
+  }
+
+.submitButton {
+  width: 60px;
+
+}
+
+textarea {
+  width: 300px;
+  border-radius: 10px;
+}

@@ -4,12 +4,12 @@ import axios from 'axios'
 
 function Beers(props) {
 
-
     let [beers, setBeers] = useState(['🌭'])
 
     useEffect(() => {
         axios.get('https://ih-beers-api2.herokuapp.com/beers/')
             .then(res => {
+                
                 console.log(res)
                 setBeers(res.data)
             })
@@ -38,9 +38,9 @@ function Beers(props) {
     return (
         <div>
         <Link to="./">
-        <header>
+            <header>
             <img src='./images/home-icon.png' width="50" alt="little home icon"/>
-        </header>
+            </header>
         </Link>
         {showBeers()}
             

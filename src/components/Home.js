@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Home(props) {
     return (
-        <div class="homePage">
+        <div className="homePage">
 
             <Link to="./beers">
             <section>
